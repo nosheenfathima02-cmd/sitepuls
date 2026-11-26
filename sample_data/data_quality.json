@@ -1,0 +1,38 @@
+{
+  "reasons": {
+    "duplicate submission": 4,
+    "missing or non-numeric value": 2,
+    "unknown trade": 2,
+    "installed > 3x planned (likely typo)": 2,
+    "date not ISO yyyy-mm-dd": 2,
+    "rework greater than installed": 2,
+    "unknown project_id": 2,
+    "hours_worked must be > 0": 2
+  },
+  "runs": [
+    {
+      "run_at": "2026-11-26T14:37:31",
+      "source": "daily_logs.csv",
+      "sha256": "e273a65db5fbb9fd5c9ab372980e77274718fe87336779a3a508a8859bc076d1",
+      "read": 604,
+      "loaded": 586,
+      "rejected": 18
+    },
+    {
+      "run_at": "2026-11-26T14:37:31",
+      "source": "modules.csv",
+      "sha256": "9515c3c52986de7e9cf30b9052701cbcabaa2cb7f2fe47fc51dc61dd9fdbb4bd",
+      "read": 48,
+      "loaded": 48,
+      "rejected": 0
+    },
+    {
+      "run_at": "2026-11-26T14:37:31",
+      "source": "site_diary.jsonl",
+      "sha256": "48bc3cd1553ad9e93a5d5463175503417b76510762e945f35dbf13e10ade7672",
+      "read": 95,
+      "loaded": 95,
+      "rejected": 0
+    }
+  ]
+}

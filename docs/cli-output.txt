@@ -1,0 +1,8 @@
+SitePulse  role=data_steward  projects=P1,P2,P3
+  daily_logs.csv   read 604  loaded 586  quarantined 18
+  modules.csv      loaded 48
+  site_diary.jsonl classified 95 free-text notes
+  P1: plan attainment 90.5%  rework 3.8%  incidents/10k hrs 0.0
+  P2: plan attainment 90.6%  rework 2.9%  incidents/10k hrs 1.21
+  P3: plan attainment 89.1%  rework 3.4%  incidents/10k hrs 3.54
+  dashboard -> sample_data/dashboard_data_steward.html

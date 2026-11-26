@@ -1,0 +1,220 @@
+{
+  "projects": {
+    "P1": {
+      "labour_hours": 10972,
+      "plan_attainment_pct": 90.5,
+      "rework_rate_pct": 3.8,
+      "incidents_per_10k_hours": 0.0
+    },
+    "P2": {
+      "labour_hours": 8262,
+      "plan_attainment_pct": 90.6,
+      "rework_rate_pct": 2.9,
+      "incidents_per_10k_hours": 1.21
+    },
+    "P3": {
+      "labour_hours": 8471,
+      "plan_attainment_pct": 89.1,
+      "rework_rate_pct": 3.4,
+      "incidents_per_10k_hours": 3.54
+    }
+  },
+  "trade_productivity": [
+    {
+      "project_id": "P1",
+      "trade": "Concrete",
+      "unit": "m3",
+      "planned_per_hr": 0.45,
+      "actual_per_hr": 0.413,
+      "variance_pct": -8.2
+    },
+    {
+      "project_id": "P1",
+      "trade": "Drywall",
+      "unit": "m2",
+      "planned_per_hr": 2.2,
+      "actual_per_hr": 2.003,
+      "variance_pct": -9.0
+    },
+    {
+      "project_id": "P1",
+      "trade": "Framing",
+      "unit": "m2",
+      "planned_per_hr": 1.6,
+      "actual_per_hr": 1.433,
+      "variance_pct": -10.4
+    },
+    {
+      "project_id": "P1",
+      "trade": "Module Install",
+      "unit": "modules",
+      "planned_per_hr": 0.05,
+      "actual_per_hr": 0.044,
+      "variance_pct": -11.5
+    },
+    {
+      "project_id": "P2",
+      "trade": "Concrete",
+      "unit": "m3",
+      "planned_per_hr": 0.45,
+      "actual_per_hr": 0.414,
+      "variance_pct": -8.1
+    },
+    {
+      "project_id": "P2",
+      "trade": "Drywall",
+      "unit": "m2",
+      "planned_per_hr": 2.2,
+      "actual_per_hr": 1.968,
+      "variance_pct": -10.5
+    },
+    {
+      "project_id": "P2",
+      "trade": "Framing",
+      "unit": "m2",
+      "planned_per_hr": 1.6,
+      "actual_per_hr": 1.471,
+      "variance_pct": -8.0
+    },
+    {
+      "project_id": "P3",
+      "trade": "Concrete",
+      "unit": "m3",
+      "planned_per_hr": 0.45,
+      "actual_per_hr": 0.369,
+      "variance_pct": -18.0
+    },
+    {
+      "project_id": "P3",
+      "trade": "Drywall",
+      "unit": "m2",
+      "planned_per_hr": 2.2,
+      "actual_per_hr": 1.995,
+      "variance_pct": -9.3
+    },
+    {
+      "project_id": "P3",
+      "trade": "Framing",
+      "unit": "m2",
+      "planned_per_hr": 1.6,
+      "actual_per_hr": 1.421,
+      "variance_pct": -11.2
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2026-W09",
+      "plan_attainment_pct": 88.7
+    },
+    {
+      "week": "2026-W10",
+      "plan_attainment_pct": 92.1
+    },
+    {
+      "week": "2026-W11",
+      "plan_attainment_pct": 91.4
+    },
+    {
+      "week": "2026-W12",
+      "plan_attainment_pct": 86.4
+    },
+    {
+      "week": "2026-W13",
+      "plan_attainment_pct": 89.1
+    },
+    {
+      "week": "2026-W14",
+      "plan_attainment_pct": 90.3
+    },
+    {
+      "week": "2026-W15",
+      "plan_attainment_pct": 92.9
+    },
+    {
+      "week": "2026-W16",
+      "plan_attainment_pct": 92.4
+    },
+    {
+      "week": "2026-W17",
+      "plan_attainment_pct": 85.2
+    },
+    {
+      "week": "2026-W18",
+      "plan_attainment_pct": 92.3
+    },
+    {
+      "week": "2026-W19",
+      "plan_attainment_pct": 88.7
+    },
+    {
+      "week": "2026-W20",
+      "plan_attainment_pct": 90.3
+    }
+  ],
+  "weather": [
+    {
+      "weather": "Cloudy",
+      "plan_attainment_pct": 97.1,
+      "days": 117
+    },
+    {
+      "weather": "Clear",
+      "plan_attainment_pct": 95.7,
+      "days": 166
+    },
+    {
+      "weather": "Wind",
+      "plan_attainment_pct": 66.3,
+      "days": 37
+    },
+    {
+      "weather": "Rain",
+      "plan_attainment_pct": 65.5,
+      "days": 65
+    }
+  ],
+  "delay_causes": [
+    {
+      "category": "weather",
+      "notes": 22,
+      "lost_hours": 30.0
+    },
+    {
+      "category": "material",
+      "notes": 19,
+      "lost_hours": 33.0
+    },
+    {
+      "category": "inspection",
+      "notes": 11,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "design",
+      "notes": 10,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "labour",
+      "notes": 8,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "safety",
+      "notes": 7,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "equipment",
+      "notes": 5,
+      "lost_hours": 14.0
+    }
+  ],
+  "modules": {
+    "fabricated": 48,
+    "shipped": 48,
+    "installed": 43,
+    "qc_fail_rate_pct": 10.4,
+    "avg_factory_to_install_days": 7.8
+  }
+}

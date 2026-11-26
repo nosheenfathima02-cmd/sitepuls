@@ -1,0 +1,145 @@
+{
+  "projects": {
+    "P2": {
+      "labour_hours": 8262,
+      "plan_attainment_pct": 90.6,
+      "rework_rate_pct": 2.9,
+      "incidents_per_10k_hours": 1.21
+    }
+  },
+  "trade_productivity": [
+    {
+      "project_id": "P2",
+      "trade": "Concrete",
+      "unit": "m3",
+      "planned_per_hr": 0.45,
+      "actual_per_hr": 0.414,
+      "variance_pct": -8.1
+    },
+    {
+      "project_id": "P2",
+      "trade": "Drywall",
+      "unit": "m2",
+      "planned_per_hr": 2.2,
+      "actual_per_hr": 1.968,
+      "variance_pct": -10.5
+    },
+    {
+      "project_id": "P2",
+      "trade": "Framing",
+      "unit": "m2",
+      "planned_per_hr": 1.6,
+      "actual_per_hr": 1.471,
+      "variance_pct": -8.0
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2026-W09",
+      "plan_attainment_pct": 96.4
+    },
+    {
+      "week": "2026-W10",
+      "plan_attainment_pct": 90.2
+    },
+    {
+      "week": "2026-W11",
+      "plan_attainment_pct": 92.9
+    },
+    {
+      "week": "2026-W12",
+      "plan_attainment_pct": 83.7
+    },
+    {
+      "week": "2026-W13",
+      "plan_attainment_pct": 96.3
+    },
+    {
+      "week": "2026-W14",
+      "plan_attainment_pct": 92.0
+    },
+    {
+      "week": "2026-W15",
+      "plan_attainment_pct": 93.5
+    },
+    {
+      "week": "2026-W16",
+      "plan_attainment_pct": 91.8
+    },
+    {
+      "week": "2026-W17",
+      "plan_attainment_pct": 79.6
+    },
+    {
+      "week": "2026-W18",
+      "plan_attainment_pct": 89.7
+    },
+    {
+      "week": "2026-W19",
+      "plan_attainment_pct": 90.4
+    },
+    {
+      "week": "2026-W20",
+      "plan_attainment_pct": 89.9
+    }
+  ],
+  "weather": [
+    {
+      "weather": "Clear",
+      "plan_attainment_pct": 97.8,
+      "days": 56
+    },
+    {
+      "weather": "Cloudy",
+      "plan_attainment_pct": 96.1,
+      "days": 36
+    },
+    {
+      "weather": "Rain",
+      "plan_attainment_pct": 65.7,
+      "days": 17
+    },
+    {
+      "weather": "Wind",
+      "plan_attainment_pct": 63.8,
+      "days": 9
+    }
+  ],
+  "delay_causes": [
+    {
+      "category": "weather",
+      "notes": 7,
+      "lost_hours": 8.0
+    },
+    {
+      "category": "material",
+      "notes": 7,
+      "lost_hours": 13.0
+    },
+    {
+      "category": "safety",
+      "notes": 4,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "labour",
+      "notes": 3,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "design",
+      "notes": 2,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "inspection",
+      "notes": 1,
+      "lost_hours": 0.0
+    },
+    {
+      "category": "equipment",
+      "notes": 1,
+      "lost_hours": 4.0
+    }
+  ]
+}
